@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuan Wang's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About Me</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="section active">
+    <h1>Welcome to My Portfolio</h1>
+    <img src="images/profile.jpg" alt="Profile Picture">
+    <p>Hello! I'm Yuan Wang, a front-end developer.</p>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="content">
+        <p>
+            Highly motivated and skilled front-end developer with a strong foundation in computer science and a master's degree in food science. Proficient in modern web technologies and frameworks, including React.js, JavaScript, HTML, and CSS. Adept at developing responsive, user-friendly web applications with a focus on performance and SEO principles. Strong team player with excellent problem-solving skills and a commitment to continuous learning and improvement.
+        </p>
+        <p>
+            <strong>University of Leeds</strong> (2023.09 - 2024.08)<br>
+            Master's in Food Science<br>
+            Research: A structural bioinformatics analysis of D-residues in Proteins and Peptides
+            <br>
+            Scholarship: International Excellence Master's Scholarship
+        </p>
+        <p>
+            <strong>Jiangsu University</strong> (2020.09 - 2022.06)<br>
+            Bachelor's in Computer Science and Technology<br>
+            Grade: 81.2/100
+        </p>
+    </div>
+</section>
+
+
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>E-Commerce Platform Development</h3>
+        <p>2023.01 - 2023.06
+            Description: Developed a full-featured e-commerce platform using React.js and integrated with a .NET backend through API calls.
+            Responsibilities:
+            Designed and implemented user-friendly web pages with a mobile-first approach.
+            Utilized Storyblok CMS to manage content and ensure seamless user experiences.
+            Ensured cross-browser compatibility and optimized for SEO.
+            Technologies: React.js, Storyblok CMS, .NET, JavaScript, CSS, Git</p>
+    </div>
+    <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>2022.11 - 2022.12
+            Description: Created a personal portfolio website to showcase projects and skills.
+            Responsibilities:
+            Designed the website layout and user interface.
+            Implemented interactive features using JavaScript and jQuery.
+            Deployed the website using GitHub Pages and ensured cross-browser compatibility.
+            Technologies: HTML, CSS, JavaScript, jQuery, GitHub Pages</p>
+    </div>
+    <div class="project">
+        <h3>Interactive Web Application for Research Visualization</h3>
+        <p>2021.07 - 2021.12
+            Description: Developed an interactive web application to visualize research data for a bioinformatics project.
+            Responsibilities:
+            Designed and implemented interactive data visualizations.
+            Integrated third-party APIs for dynamic data retrieval.
+            Collaborated with the research team to understand requirements and deliver solutions.
+            Technologies: JavaScript, D3.js, HTML, CSS, RESTful APIs</p>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Yuan Wang. All rights reserved.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
